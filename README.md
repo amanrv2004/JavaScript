@@ -31,7 +31,7 @@ This repository contains my complete JavaScript learning journey, including conc
 ```bash
 JS 22/
 │
-├── 1-3/
+├── 1-3 Variables,Memeory Management(Stack and Heap)/
 ├── 4 Operators/
 ├── 5 JavaScript Internals, Math.random & Numbers/
 ├── 6 String and Date Objects/
