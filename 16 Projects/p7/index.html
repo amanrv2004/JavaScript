@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+</head>
+<body style="background-color: black;color: white; font-size:20px; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div id="parent">
+        <h1>Astrology Insights</h1>
+        <form style="display: grid; justify-items: center;" id="astroForm" >
+         <label for="name">First Name</label>
+         <input type="text" name="name" id="name" required>
+         <label for=""> Surname</label>
+         <input type="text" name="surname" id="surname" required>
+         <label for="date">Date</label>
+         <input type="number" name="date" id="date" required>
+         <label for="month">Month</label>
+         <input type="number" name="month" id="month" required>
+         <label for="year">Year</label>
+         <input type="text" name="year" id="year" required>
+
+         <button type="submit" style="margin-top: 20px;">Get Insights</button>
+        </form>
+        <div class="result" id="result" style="margin-top: 20px; color: white;"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
